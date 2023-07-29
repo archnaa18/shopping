@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--favicon-->
+  <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/webp" />
+
+  <!-- CSS files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dark-theme.css" rel="stylesheet">
+
+  <title>Quality Toilet paper</title>
+</head>
+
+<body class="">
+
+  <!--page loader-->
+  <div class="loader-wrapper">
+    <div class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
+      <div class="spinner-border text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </div>
+  <!--end loader-->
+
+  <!--start top header-->
+   <header class="top-header">
+    <nav class="navbar navbar-expand-xl w-100 navbar-dark container gap-3">
+      <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo.png" style="height: 3.5rem;" class="logo-img" alt=""></a>
+      <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <div class="offcanvas-logo"><img src="assets/images/logo.png" class="logo-img" alt="">
+          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body primary-menu">
+          <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop-grid.html">Toilet Papers</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-4.html">Hand Sanitisers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                <li><a class="dropdown-item" href="payment-method.html">Checkout</a></li>
+                <li><a class="dropdown-item" href="search.html">Search</a></li>
+                <li><a class="dropdown-item" href="thank-you.html">Thankyou</a></li>
+                <li><a class="dropdown-item" href="billing-details.html">Order Cancel</a></li>
+                
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="account-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="account-orders.html">My Orders</a></li>
+                <li><a class="dropdown-item" href="account-profile.html">My Profile</a></li>
+                <li><a class="dropdown-item" href="account-edit-profile.html">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="account-saved-address.html">Addresses</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="authentication-login.html">Login</a></li>
+                <li><a class="dropdown-item" href="authentication-register.html">Register</a></li>
+                <li><a class="dropdown-item" href="authentication-reset-password.html">Password</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar-nav secondary-menu flex-row">
+        <li class="nav-item">
+          <a class="nav-link dark-mode-icon" href="javascript:;">
+            <div class="mode-icon">
+              <i class="bi bi-moon"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+          <a class="nav-link position-relative" href="cart.html">
+            <div class="cart-badge">8</div>
+            <i class="bi bi-basket2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account-dashboard.html"><i class="bi bi-person-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+  <!--start page content-->
+  <div class="page-content">
+
+
+    <!--start breadcrumb-->
+    <div class="py-4 border-bottom">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="javascript:;">Blog</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Blog Post</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!--end breadcrumb-->
+
+
+    <!--start product details-->
+    <section class="section-padding">
+      <div class="container">
+
+        <div class="row g-4">
+          <div class="col-12 col-xl-8">
+            <div class="d-flex flex-column gap-4">
+              <div class="card rounded-0 border">
+                <img src="./assets/images/about-us/blog1.jpg" class="card-img-top rounded-0 mb-3 img-fluid" alt="...">
+                <div class="card-body">
+                  <div class="d-flex align-items-center gap-4">
+                    <div class="posted-by">
+                      <p class="mb-0"><i class="bi bi-person me-2"></i>Admin</p>
+                    </div>
+                    <div class="posted-by">
+                      <p class="mb-0"><i class="bi bi-chat me-2"></i>18 Comments</p>
+                    </div>
+                    <div class="posted-date">
+                      <p class="mb-0"><i class="bi bi-calendar me-2"></i>August 13, 2016</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title fw-bold mt-3">Benefits of Home Delivery of Toilet Paper</h4>
+                  <p class="mb-0">Seriously – who wouldn’t want quality toilet paper delivered right to their door each
+                    month?
+                    With us, getting toilet paper is as simple as putting your pants on in the morning.
+                    Just choose a toilet paper package, register online and we will deliver it right to your door every
+                    month or at a regular interval of your choosing, much cheaper than what you would pay at the
+                    supermarket.</p>
+                  <br>
+                  <p>There is no hidden contract or binding commitments.</p>
+                  <h5>Simply</h5>
+                  <ul>
+                    <li>Choose the toilet paper that is right for your household</li>
+                    <li>Register on line at: <a href="toiletpaperrus.com.au">toiletpaperrus.com.au</a></li>
+                    <li>Place your order
+                      <br>
+                      You can purchase as a 1 time buyer just to try it
+                      <br>
+                      OR
+                      <br>
+                      You can subscribe for regular deliveries at an interval of your choosing
+                    </li>
+                    <li>We deliver straight to your door</li>
+                  </ul>
+                  <h4 class="card-title fw-bold mt-3">MORE SAVINGS</h4>
+                  <p>If you register as a subscriber for regular deliveries, we reward you by giving you a further 10%
+                    DISCOUNT off the regular price.</p>
+                  <p>This means that we will send your order on the interval you have chosen.</p>
+                  <p>We will also let you know a few days in advance that we are sending you the order so as you know
+                    when to expect it.</p>
+                  <p>If you don’t need toilet paper, you can SKIP an interval scheduled delivery or simply CHNGE the
+                    frequency to suit your needs.</p>
+                  <h4 class="card-title fw-bold mt-3">CHANGING YOUR INTERVAL SUBSCRIBED ORDER</h4>
+                  <p>Wish for to change the product & subscription or cancel you regular order?</p>
+                  <p>It’s very simple.</p>
+                  <p>Just log on, go to the “my account” section and click a couple buttons to what you want.</p>
+                  <p>Job done! You control your orders with minimal fuss</p>
+                  <h4 class="card-title fw-bold mt-3">Assess the Benefits of our Home Delivery Toilet Paper Program</h4>
+                  <h5><i class="bi bi-check-square-fill"></i>Subscribe For Regular Deliveries</h5>
+                  <p>We at <a href="">toiletpaperrus.com.au</a> provide the Subscription option to our Customers;</p>
+                  <p>You can choose our Weekly/Monthly or Bi Monthly Subscription option.</p>
+                  <p>You receive Quality Products that are cheaper than what you will find in most supermarkets even
+                    when they are on SPECIAL</p>
+                  <h5><i class="bi bi-check-square-fill"></i>Customer Satisfaction</h5>
+                  <p>Our toilet paper options give you the choice of toilet paper that would suit your household.</p>
+                  <p>From Black Label Luxury to 2 ply economic value or 3 ply bulk buy, we are there to cater for your
+                    needs.</p>
+                  <h5><i class="bi bi-check-square-fill"></i>Our Money Back Guarantee</h5>
+                  <p>We are so confident that you would be more than satisfied and in fact exceed your expectations,
+                    based on our customer feed-back that we offer a Money Back Guarantee if you are not happy with the
+                    product once received.</p>
+                  <h5><i class="bi bi-check-square-fill"></i>We save you time</h5>
+                  <p>With so much to think about every day, leave the worries to us to keep you in toilet paper without
+                    the fuss of shopping for it, lugging it in your trolley and worst of all lugging it into your home.
+                    It is a concept that once you start, you will appreciate.</p>
+                  <h5><i class="bi bi-check-square-fill"></i>Save Money</h5>
+                  <p>Toilet paper is an everyday essential consumable.</p>
+                  <p>Spending more than you should is like FLUSHING MONEY DOWN THE TOILET</p>
+                  <p>We give you almost double length rolls that are nearly the same price as the tiny 180 sheet
+                    supermarket rolls. This means you are getting nearly double the value.</p>
+                  <h5><i class="bi bi-check-square-fill"></i>Never Run Out Of Toilet Paper</h5>
+                  <p>Our systematic prescription concept ensures that you never get caught out with No Toilet Paper in
+                    Your House. We are always there when you need it.</p>
+                    <h4 class="card-title fw-bold mt-3">These are Benefits of Our Home Delivery of Toilet Paper Concept.
+                      Give us a call or simply register on line – We would love to see you soon!</h4>
+
+                  <div class="d-flex align-items-center gap-3 py-3 border-top border-bottom">
+                    <div class="">
+                      <h5 class="mb-0 fw-bold">Share This Post</h5>
+                    </div>
+                    <div class="footer-widget-9">
+                      <div class="social-link d-flex flex-wrap align-items-center gap-2">
+                        <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+                        <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+                        <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+                        <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="author d-flex align-items-start gap-3 my-3">
+                    <img src="./assets/images/avatars/01.webp" class="" alt="" width="80">
+                    <div class="">
+                      <h6 class="mb-0">Admin</h6>
+                      <p class="mb-0">Choose the toilet paper that is right for your household</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="reply-form p-4 border">
+                    <h5 class="mb-0 fw-bold">Leave a Reply</h5>
+                    <p>Your email address will not be published. Required fields are marked *</p>
+                    <form>
+                      <div class="mb-3">
+                        <label class="form-label">Comment</label>
+                        <textarea class="form-control rounded-0" rows="4"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control rounded-0" placeholder="">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control rounded-0">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Website</label>
+                        <input type="text" class="form-control rounded-0">
+                      </div>
+                      <div class="mb-0">
+                        <button type="button" class="btn btn-dark btn-ecomm">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4">
+            <div class="blog-left-sidebar border p-4">
+              <form>
+                <div class="position-relative mb-4">
+                  <input type="text" class="form-control form-control-lg ps-5 rounded-0"
+                    placeholder="Search Product...">
+                  <span class="position-absolute top-50 product-show translate-middle-y"><i
+                      class="bi bi-search ms-3"></i></span>
+                </div>
+                <div class="blog-categories mb-4">
+                  <h5 class="mb-3 fw-bold">Blog Categories</h5>
+                  <div class="list-group list-group-flush"> <a href="javascript:;"
+                      class="list-group-item bg-transparent"><i class="bi bi-chevron-right me-1"></i> Fashion</a>
+                    <a href="javascript:;" class="list-group-item bg-transparent"><i
+                        class="bi bi-chevron-right me-1"></i> Electronis</a>
+                    <a href="javascript:;" class="list-group-item bg-transparent"><i
+                        class="bi bi-chevron-right me-1"></i> Accessories</a>
+                    <a href="javascript:;" class="list-group-item bg-transparent"><i
+                        class="bi bi-chevron-right me-1"></i> Kitchen &amp; Table</a>
+                    <a href="javascript:;" class="list-group-item bg-transparent"><i
+                        class="bi bi-chevron-right me-1"></i> Furniture</a>
+                  </div>
+                </div>
+                <div class="blog-categories recent-post mb-4">
+                  <h5 class="mb-4 fw-bold">Recent Posts</h5>
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/blog/01.webp" width="100" alt="">
+                    <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post title here</a>
+                      <p class="mb-0">March 15, 2021</p>
+                    </div>
+                  </div>
+                  <div class="my-3 border-bottom"></div>
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/blog/02.webp" width="100" alt="">
+                    <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post title here</a>
+                      <p class="mb-0">March 15, 2021</p>
+                    </div>
+                  </div>
+                  <div class="my-3 border-bottom"></div>
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/blog/03.webp" width="100" alt="">
+                    <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post title here</a>
+                      <p class="mb-0">March 15, 2021</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-categories">
+                  <h5 class="mb-4 fw-bold">Popular Tags</h5>
+                  <div class="tags-box d-flex flex-wrap gap-3">
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Cloths</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Electronis</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Furniture</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Laptops</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Men Wear</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Shoes</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Topwear</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Formal Shirts</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Headphones</a>
+                    </div>
+                    <div>
+                      <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Bottom Wear</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div><!--end row-->
+
+      </div>
+    </section>
+    <!--start product details-->
+
+
+  </div>
+  <!--end page content-->
+
+
+
+<!--start footer-->
+<section class="footer-section bg-section-2 section-padding">
+  <div class="container">
+     <div class="row row-cols-1 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="footer-widget-6">
+          <img src="assets/images/logo.png" style="height: 3.5rem;" class="logo-img mb-3" alt="">
+          <h5 class="mb-3 fw-bold">Explore</h5>
+           <ul class="widget-link list-unstyled">
+             <li><a class="dropdown-item" href="shop-grid.html">Toilet Papers</a></li></li>
+             <li><a class="dropdown-item" href="shop-grid-type-4.html">Hand Sanitisers</a></li>
+             
+           </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="footer-widget-7">
+          <h5 class="mb-3 fw-bold">About Us</h5>
+           <p class="mb-2">At TPRUS, we offer a wide range of quality essential every day hygiene products specifically and conveniently to take care of you needs.</p>
+
+           <a class="link-dark" href="about-us.html">Read More</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="footer-widget-8">
+          <h5 class="mb-3 fw-bold">Company</h5>
+           <ul class="widget-link list-unstyled">
+             <li><a href="about-us.html">About Us</a></li>
+             <li><a href="contact-us.html">Contact Us</a></li>
+             <li><a href="freight.html">Freight Charges & Shipping</a></li>
+             <li><a href="privacy.html">Privacy</a></li>
+             <li><a href="terms.html">Terms</a></li>
+             <li><a href="refund.html">Returns & Refunds</a></li>
+             <li><a href="security.html">Security Policy</a></li>
+
+           </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="footer-widget-9">
+          <h5 class="mb-3 fw-bold">Contact Us</h5>
+          
+           <div class="">
+            <h5 class="mb-0 fw-bold">Address</h5>
+            <p class="mb-0 text-muted">5/707 Forest Road<br>
+              Peakhurst NSW 2210</p>
+           </div>
+           <div class="mb-3 mt-3">
+            <h5 class="mb-0 fw-bold">Support</h5>
+            <p class="mb-0 text-muted">sales@toiletpaperrus.com.au</p>
+           </div>
+           <div class="">
+            <h5 class="mb-0 fw-bold">Toll Free</h5>
+            <p class="mb-0 text-muted">1300 062 672</p>
+           </div>
+        </div>
+      </div>
+     </div><!--end row-->
+     
+
+  </div>
+</section>
+<!-- end footer -->
+<footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
+  <p class="mb-0 text-muted">© TPRUS| All rights reserved| Designed & Hosted by <a href="https://webuniversals.co.in/" class="web">Web Universals</a></p>
+</footer>
+
+
+
+
+  <!--start cart-->
+  <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header bg-section-2">
+      <h5 class="mb-0 fw-bold" id="offcanvasRightLabel">8 items in the cart</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="cart-list">
+
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/01.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/02.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/03.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/04.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/05.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/06.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/07.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/08.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/09.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/10.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas-footer p-3 border-top">
+      <div class="d-grid">
+        <button type="button" class="btn btn-lg btn-dark btn-ecomm px-5 py-3">Checkout</button>
+      </div>
+    </div>
+
+  </div>
+  <!--end cat-->
+
+
+
+  <!--Start Back To Top Button-->
+  <a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <!--End Back To Top Button-->
+
+
+  <!-- JavaScript files -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/plugins/slick/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/loader.js"></script>
+
+
+</body>
+
+</html>

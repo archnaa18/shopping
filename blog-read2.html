@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon-->
+    <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/webp" />
+
+    <!-- CSS files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/dark-theme.css" rel="stylesheet">
+
+    <title>Quality Toilet paper</title>
+</head>
+
+<body class="">
+
+    <!--page loader-->
+    <div class="loader-wrapper">
+        <div
+            class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
+            <div class="spinner-border text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <!--end loader-->
+
+    <!--start top header-->
+     <header class="top-header">
+    <nav class="navbar navbar-expand-xl w-100 navbar-dark container gap-3">
+      <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo.png" style="height: 3.5rem;" class="logo-img" alt=""></a>
+      <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <div class="offcanvas-logo"><img src="assets/images/logo.png" class="logo-img" alt="">
+          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body primary-menu">
+          <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop-grid.html">Toilet Papers</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-4.html">Hand Sanitisers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                <li><a class="dropdown-item" href="payment-method.html">Checkout</a></li>
+                <li><a class="dropdown-item" href="search.html">Search</a></li>
+                <li><a class="dropdown-item" href="thank-you.html">Thankyou</a></li>
+                <li><a class="dropdown-item" href="billing-details.html">Order Cancel</a></li>
+                
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="account-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="account-orders.html">My Orders</a></li>
+                <li><a class="dropdown-item" href="account-profile.html">My Profile</a></li>
+                <li><a class="dropdown-item" href="account-edit-profile.html">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="account-saved-address.html">Addresses</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="authentication-login.html">Login</a></li>
+                <li><a class="dropdown-item" href="authentication-register.html">Register</a></li>
+                <li><a class="dropdown-item" href="authentication-reset-password.html">Password</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar-nav secondary-menu flex-row">
+        <li class="nav-item">
+          <a class="nav-link dark-mode-icon" href="javascript:;">
+            <div class="mode-icon">
+              <i class="bi bi-moon"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+          <a class="nav-link position-relative" href="cart.html">
+            <div class="cart-badge">8</div>
+            <i class="bi bi-basket2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account-dashboard.html"><i class="bi bi-person-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <!--end top header-->
+
+
+    <!--start page content-->
+    <div class="page-content">
+
+
+        <!--start breadcrumb-->
+        <div class="py-4 border-bottom">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:;">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog Post</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!--end breadcrumb-->
+
+
+        <!--start product details-->
+        <section class="section-padding">
+            <div class="container">
+
+                <div class="row g-4">
+                    <div class="col-12 col-xl-8">
+                        <div class="d-flex flex-column gap-4">
+                            <div class="card rounded-0 border">
+                                <img src="./assets/images/about-us/blog3.jpg"
+                                    class="card-img-top rounded-0 mb-3 img-fluid" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center gap-4">
+                                        <div class="posted-by">
+                                            <p class="mb-0"><i class="bi bi-person me-2"></i>Admin</p>
+                                        </div>
+                                        <div class="posted-by">
+                                            <p class="mb-0"><i class="bi bi-chat me-2"></i>18 Comments</p>
+                                        </div>
+                                        <div class="posted-date">
+                                            <p class="mb-0"><i class="bi bi-calendar me-2"></i>March 29, 2016</p>
+                                        </div>
+                                    </div>
+                                    <h4 class="card-title fw-bold mt-3">WHY BUY FROM "TOILET PAPER R US"??</h4>
+                                    <h5>Toilet Paper R Us specialises in toilet paper.</h5>
+                                    <p class="mb-0">We offer a variety of toilet paper products to suit your individual
+                                        needs.</p>
+                                    <br>
+                                    <p>Our 2ply & 3ply paper is manufactured here in Australia and we control the
+                                        quality factors to ensure that you are getting the best product for your money.
+                                    </p>
+                                    <p>As there are no middle men in our business, we can supply you with our products
+                                        at a very, very low price so as you get the benefit from our quality, value &
+                                        our service.</p>
+                                    <p class="text-dark">AFTER COMPARING THE TOILET PAPER MARKET, WE CAN SUPPLY YOU
+                                        CHEAPER AND BETTER VALUE THAN THE SUPERMARKETS with the benefit of FREE
+                                        DELIVERY TO YOUR HOME OR BUSINESS if you are in Sydney</p>
+                                    <h4 class="card-title fw-bold mt-3">An Example is our 60 rolls 3ply X 300 Sheets
+                                        Bulk Buy Value pack</h4>
+                                    <p>Supermarket rolls generally have around 180 sheets per roll that gets used up
+                                        quickly in every bathroom. Here this morning gone this afternoon.</p>
+                                    <h4 class="card-title fw-bold mt-3">Let’s calculate a 20 roll pack of 180 sheets
+                                    </h4>
+                                    <p>You get 3,600 sheets for around $10 when it’s on Special</p>
+                                    <h4 class="card-title fw-bold mt-3">Let’s calculate ours</h4>
+                                    <p>When you extend 60 roll x 300 sheets per roll you get 18,000 sheets per carton
+                                    </p>
+                                    <p>By dividing our 18,000 sheets into 180 sheets (being the supermarket roll size)
+                                        you will note that our 60 Roll x 300 sheets carton is equal to 100 supermarket
+                                        rolls (based on 180 sheets per roll)</p>
+                                    <p>Our 60 Roll X 300 sheet is $36.00 (Note that it is Equivalent to 100 of 180
+                                        sheets rolls)</p>
+                                    <p>100 of 180 sheets rolls in a supermarket will cost an average of $50</p>
+                                    <p>With our equivalent, you will spend only $36.00</p>
+                                    <h5 class="text-dark">YOUR SAVING BEING: $14.00 as an average</h5>
+                                    <h4 class="card-title fw-bold mt-3"> <span class="text-danger">Consider this
+                                            scenario
+                                        </span></h4>
+                                    <p>You go to the supermarket.</p>
+                                    <p>You put your bulky toilet paper in your trolley watching it take up most of the
+                                        room in the trolley</p>
+                                    <p>You wait to check out</p>
+                                    <p>You lug it to your car; load it in your car & drive home</p>
+                                    <p>Then you lug it to your home</p>
+                                    <p>Then you realise that you have spent $14 more for your toilet paper needs</p>
+                                    <h5 class="text-dark">YOUR SAVING BEING: $14.00 as an average</h5>
+                                    <h4 class="card-title fw-bold mt-3"> <span class="text-danger">Let’s look at the
+                                            alternative
+                                        </span></h4>
+                                    <p>You order from Toilet paper R Us</p>
+                                    <p>We deliver to your home</p>
+                                    <p>You save an average of $14.00</p>
+                                    <h5 class="text-dark">YES! There is more SAVINGS</h5>
+                                    <p>Become a regular customer and RECEIVE AN ADDITIONAL 10% DISCOUNT and SAVE MORE
+                                    </p>
+                                    <p>You can determine how often you would like us to deliver your toilet paper by
+                                        subscribing for regular deliveries at a frequency of your choice. There are NO
+                                        CONTRACTS or Binding Commitments</p>
+                                    <h4 class="card-title fw-bold mt-3"> <span class="text-danger">Our business is your
+                                            business.
+                                        </span></h4>
+                                    <p class="text-dark"><span class="text-danger">We offer: </span>Savings, Quality
+                                        Toilet paper, Superior Value, with
+                                        the benefit of having toilet paper delivered to your door</p>
+                                    <p class="text-dark">We stand by our seal of Guarantee to Satisfy your Toilet paper
+                                        Need and offer a Money Back Guarantee if you are not satisfied with “Toilet
+                                        Paper R Us”</p>
+                                    <p class="text-dark">We appreciate your custom and look forward to be of service to you.  Look forward to seeing you.</p>
+                    
+
+
+                                    <div class="d-flex align-items-center gap-3 py-3 border-top border-bottom">
+                                        <div class="">
+                                            <h5 class="mb-0 fw-bold">Share This Post</h5>
+                                        </div>
+                                        <div class="footer-widget-9">
+                                            <div class="social-link d-flex flex-wrap align-items-center gap-2">
+                                                <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+                                                <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+                                                <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+                                                <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+                                                <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author d-flex align-items-start gap-3 my-3">
+                                        <img src="./assets/images/avatars/01.webp" class="" alt="" width="80">
+                                        <div class="">
+                                            <h6 class="mb-0">Admin</h6>
+                                            <p class="mb-0">Choose the toilet paper that is right for your household</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="reply-form p-4 border">
+                                        <h5 class="mb-0 fw-bold">Leave a Reply</h5>
+                                        <p>Your email address will not be published. Required fields are marked *</p>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label">Comment</label>
+                                                <textarea class="form-control rounded-0" rows="4"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Name</label>
+                                                <input type="text" class="form-control rounded-0" placeholder="">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Email</label>
+                                                <input type="text" class="form-control rounded-0">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Website</label>
+                                                <input type="text" class="form-control rounded-0">
+                                            </div>
+                                            <div class="mb-0">
+                                                <button type="button" class="btn btn-dark btn-ecomm">Post
+                                                    Comment</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <div class="blog-left-sidebar border p-4">
+                            <form>
+                                <div class="position-relative mb-4">
+                                    <input type="text" class="form-control form-control-lg ps-5 rounded-0"
+                                        placeholder="Search Product...">
+                                    <span class="position-absolute top-50 product-show translate-middle-y"><i
+                                            class="bi bi-search ms-3"></i></span>
+                                </div>
+                                <div class="blog-categories mb-4">
+                                    <h5 class="mb-3 fw-bold">Blog Categories</h5>
+                                    <div class="list-group list-group-flush"> <a href="javascript:;"
+                                            class="list-group-item bg-transparent"><i
+                                                class="bi bi-chevron-right me-1"></i> Fashion</a>
+                                        <a href="javascript:;" class="list-group-item bg-transparent"><i
+                                                class="bi bi-chevron-right me-1"></i> Electronis</a>
+                                        <a href="javascript:;" class="list-group-item bg-transparent"><i
+                                                class="bi bi-chevron-right me-1"></i> Accessories</a>
+                                        <a href="javascript:;" class="list-group-item bg-transparent"><i
+                                                class="bi bi-chevron-right me-1"></i> Kitchen &amp; Table</a>
+                                        <a href="javascript:;" class="list-group-item bg-transparent"><i
+                                                class="bi bi-chevron-right me-1"></i> Furniture</a>
+                                    </div>
+                                </div>
+                                <div class="blog-categories recent-post mb-4">
+                                    <h5 class="mb-4 fw-bold">Recent Posts</h5>
+                                    <div class="d-flex align-items-start">
+                                        <img src="assets/images/blog/01.webp" width="100" alt="">
+                                        <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post
+                                                title here</a>
+                                            <p class="mb-0">March 15, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="my-3 border-bottom"></div>
+                                    <div class="d-flex align-items-start">
+                                        <img src="assets/images/blog/02.webp" width="100" alt="">
+                                        <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post
+                                                title here</a>
+                                            <p class="mb-0">March 15, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="my-3 border-bottom"></div>
+                                    <div class="d-flex align-items-start">
+                                        <img src="assets/images/blog/03.webp" width="100" alt="">
+                                        <div class="ms-3"> <a href="javascript:;" class="fs-6 fw-bold text-content">Post
+                                                title here</a>
+                                            <p class="mb-0">March 15, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-categories">
+                                    <h5 class="mb-4 fw-bold">Popular Tags</h5>
+                                    <div class="tags-box d-flex flex-wrap gap-3">
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Cloths</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Electronis</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Furniture</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Laptops</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;" class="btn btn-outline-dark rounded-0 btn-ecomm">Men
+                                                Wear</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Shoes</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Topwear</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Formal Shirts</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Headphones</a>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:;"
+                                                class="btn btn-outline-dark rounded-0 btn-ecomm">Bottom Wear</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!--end row-->
+
+            </div>
+        </section>
+        <!--start product details-->
+
+
+    </div>
+    <!--end page content-->
+
+
+<!--start footer-->
+<section class="footer-section bg-section-2 section-padding">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="footer-widget-6">
+            <img src="assets/images/logo.png" style="height: 3.5rem;" class="logo-img mb-3" alt="">
+            <h5 class="mb-3 fw-bold">Explore</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a class="dropdown-item" href="shop-grid.html">Toilet Papers</a></li></li>
+               <li><a class="dropdown-item" href="shop-grid-type-4.html">Hand Sanitisers</a></li>
+               
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-7">
+            <h5 class="mb-3 fw-bold">About Us</h5>
+             <p class="mb-2">At TPRUS, we offer a wide range of quality essential every day hygiene products specifically and conveniently to take care of you needs.</p>
+  
+             <a class="link-dark" href="about-us.html">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+            <div class="footer-widget-8">
+                <h5 class="mb-3 fw-bold">Company</h5>
+                 <ul class="widget-link list-unstyled">
+                   <li><a href="about-us.html">About Us</a></li>
+                   <li><a href="contact-us.html">Contact Us</a></li>
+                   <li><a href="freight.html">Freight Charges & Shipping</a></li>
+                   <li><a href="privacy.html">Privacy</a></li>
+                   <li><a href="terms.html">Terms</a></li>
+                   <li><a href="refund.html">Returns & Refunds</a></li>
+                   <li><a href="security.html">Security Policy</a></li>
+    
+                 </ul>
+              </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-9">
+            <h5 class="mb-3 fw-bold">Contact Us</h5>
+            
+             <div class="">
+              <h5 class="mb-0 fw-bold">Address</h5>
+              <p class="mb-0 text-muted">5/707 Forest Road<br>
+                Peakhurst NSW 2210</p>
+             </div>
+             <div class="mb-3 mt-3">
+              <h5 class="mb-0 fw-bold">Support</h5>
+              <p class="mb-0 text-muted">sales@toiletpaperrus.com.au</p>
+             </div>
+             <div class="">
+              <h5 class="mb-0 fw-bold">Toll Free</h5>
+              <p class="mb-0 text-muted">1300 062 672</p>
+             </div>
+          </div>
+        </div>
+       </div><!--end row-->
+       
+  
+    </div>
+  </section>
+  <!-- end footer -->
+  <footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
+    <p class="mb-0 text-muted">© TPRUS| All rights reserved| Designed & Hosted by <a href="https://webuniversals.co.in/" class="web">Web Universals</a></p>
+  </footer>
+  
+  
+  
+
+
+
+    <!--start cart-->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header bg-section-2">
+            <h5 class="mb-0 fw-bold" id="offcanvasRightLabel">8 items in the cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="cart-list">
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/01.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/02.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/03.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/04.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/05.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/06.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/07.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/08.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/09.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bottom-product-img">
+                        <a href="product-details.html">
+                            <img src="assets/images/new-arrival/10.webp" width="60" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+                        <p class="mb-0"><strong>1 X $59.00</strong>
+                        </p>
+                    </div>
+                    <div class="ms-auto fs-5">
+                        <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer p-3 border-top">
+            <div class="d-grid">
+                <button type="button" class="btn btn-lg btn-dark btn-ecomm px-5 py-3">Checkout</button>
+            </div>
+        </div>
+
+    </div>
+    <!--end cat-->
+
+
+
+    <!--Start Back To Top Button-->
+    <a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!--End Back To Top Button-->
+
+
+    <!-- JavaScript files -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/loader.js"></script>
+
+
+</body>
+
+</html>
